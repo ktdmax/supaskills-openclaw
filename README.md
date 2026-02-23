@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-clawhub install ktdmax/supaskills-openclaw
+clawhub install supaskills
 ```
 
 ## Requirements
@@ -18,6 +18,8 @@ You need a SupaSkills API key (free signup):
 2. Go to Dashboard > API Keys
 3. Create a key (starts with `sk_supa_`)
 4. Set as environment variable: `export SUPASKILLS_API_KEY=sk_supa_...`
+
+**Never commit your API key to git.** Use `.env` files or your system's secret manager.
 
 ## Usage Examples
 
